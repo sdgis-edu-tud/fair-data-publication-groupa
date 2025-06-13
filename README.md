@@ -32,10 +32,10 @@ This dataset contains qualitative and/or quantitative data on ... Context for th
 
 ## 1.3 Author Information
 A. Principal Investigator  
-- Name: 
-- Institution: 
+- Name: Vincent Vanderheeren
+- Institution: TU Delft
 - Address: 
-- Email: 
+- Email: v.j.a.vanderheeren@student.tudelft.nl
 
 B. Associate or Co-investigator
 - Name: 

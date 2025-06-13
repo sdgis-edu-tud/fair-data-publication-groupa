@@ -25,7 +25,7 @@
 # 1. GENERAL INFORMATION
 
 ## 1.1 Title of Dataset
-Insert title here
+Human-nature connectedness of the Teplica stream of Senica
 
 ## 1.2 Dataset description
 This dataset contains qualitative and/or quantitative data on ... Context for the research project... Additional details about the project can be accessed [here](https://...).
@@ -48,20 +48,19 @@ C. Associated study personnel
 - ...
 
 ## 1.4 Dates of data collection
-- Survey 1: YYYY-MM-DD
-- Survey 2: YYYY-MM-DD
+- Survey 1: 2025-05-20
 
 ## 1.5 Geographic location of data collection
-...
+Teplica River, Senica, Slovakia
 
 ## 1.6 Keywords
-..., ..., ...
+Urban stream restoration, Quality of life, Biodiversity, Climate adaptation, river, liveability, biophylia, human-nature connectedness
 
 ## 1.7 Language
-...
+English
 
 ## 1.8 Information about funding sources that supported the collection of the data
-This research project was funded by...
+TU Delft I guess
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses

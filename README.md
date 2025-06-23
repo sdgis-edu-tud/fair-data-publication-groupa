@@ -534,8 +534,8 @@ Teplica stream
 
 ### 5.2.2 Links to other publicly accessible locations of the data:
 
--   [Atlas of Slovak Republic](http://www.sazp.sk)
--   [LandsAt 8-9 Collection 2 Level 2](https://www.usgs.gov/media/files/landsat-8-9-collection-2-level-2-science-product-guide)
+-   [Atlas of Slovak Republic](https://data.sazp.sk/atlas-krajiny-slovenskej-republiky/ogc-open-web-services-w3s)
+-   [LandsAt 8-9 Collection 2 Level 2](https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products)
 
 ### 5.2.3 Links/relationships to ancillary data sets:
 

@@ -52,27 +52,34 @@ A. Principal Investigator\
 - Name: Vincent Vanderheeren - Institution: TU Delft - Address: - Email:
 [v.j.a.vanderheeren\@student.tudelft.nl](mailto:v.j.a.vanderheeren@student.tudelft.nl){.email}
 
+B. Associate or Co-investigator - Name: Youjin Lee - Institution: TU
+Delft - Address: - Email:
+[y.lee-20\@student.tudelft.nl](mailto:y.lee-20@student.tudelft.nl){.email}
 
-B. Associate or Co-investigator
-- Name: Youjin Lee 
-- Institution: TU Delft 
-- Address: 
-- Email: y.lee-20@student.tudelft.nl
+-   Name: Shreya Rajmane
 
-- Name: Shreya Rajmane
-- Institution: TU Delft 
-- Address: 
-- Email: s.h.rajmand@student.tudelft.nl
+-   Institution: TU Delft
 
-- Name: Vasileios Letsios
-- Institution: TU Delft 
-- Address: 
-- Email: v.letsios@student.tudelft.nl
+-   Address:
+
+-   Email:
+    [s.h.rajmand\@student.tudelft.nl](mailto:s.h.rajmand@student.tudelft.nl){.email}
+
+-   Name: Vasileios Letsios
+
+-   Institution: TU Delft
+
+-   Address:
+
+-   Email:
+    [v.letsios\@student.tudelft.nl](mailto:v.letsios@student.tudelft.nl){.email}
 
 ## 1.4 Dates of data collection
-- Data from course: 2025-05-02 
-- Atlas of Slovak Republic (Atlas krajiny Slovenskej republiky): 2025-05-20
-- Landsat 8-9 Collection2 Level2: 2025-06-05
+
+-   Data from course: 2025-05-02
+-   Atlas of Slovak Republic (Atlas krajiny Slovenskej republiky):
+    2025-05-20
+-   Landsat 8-9 Collection2 Level2: 2025-06-05
 
 ## 1.5 Geographic location of data collection
 
@@ -89,14 +96,17 @@ English
 
 ## 1.8 Information about funding sources that supported the collection of the data
 
+
 - Data from course: TU Delft 
 - Atlas of Slovak Republic: Slovak environment agency (Slovenska Agentura Zivotneho Prostredia)
 - Landsat 8-9 Collection2 Level2:USGS (US Geological Survey)
 
 
+
 # 2. METHODOLOGICAL INFORMATION
 
-## \## 2.1 Research questions, methods and envisioned uses
+
+## 2.1 Research questions, methods and envisioned uses
 
 The research examines the potential for Urban stream restoration of the
 Teplica stream in the city of Senica through enchanced human nature
@@ -181,6 +191,58 @@ Are there multiple versions of the dataset? Yes/No
 
 -   "built_up.tif": built-up area along the Teplica
 -   "q100_flood_area.shp": flood area of a q100 flood along the Teplica
+
+**Percentage of Green**\
+-   osm_greenspace: provided from course coordination team
+
+**Connectivity to Green**\
+-   osm_greenspace: provided from course coordination team
+
+**Presence of Species**\
+-   Lopatka dúhová Rhodeus amarus (European bitterling): data from Atlas
+of Slovak Republic
+
+-   Ohrozené druhy obojživelníkov a plazov (Endangered species of
+    amphibians and reptiles): data from Atlas of Slovak Republic
+
+-   Poľovné oblasti (Hunting Areas): data from Atlas of Slovak Republic
+
+-   Muflónia zver Ovis musimon (European mouflon): data from Atlas of
+    Slovak Republic
+
+-   Zajac Lepus europaeus (European hare): data from Atlas of Slovak
+    Republic
+
+-   Jelenia zver Cervus elaphus (Red deer): data from Atlas of Slovak
+    Republic
+
+### 3.1.2 Quality of Life
+
+**Proximity to Parks**
+
+-   "osm_greenspace": provided from course coordination team
+-   "osm_buildings": provided from course coordination team
+
+**Proximity to Activities
+
+-   "osm_greenspace": provided from course coordination team
+-   "osm_activities": provided from course coordination team
+
+**Concentration of POI**
+
+-   "osm_POI": provided from course coordination team
+
+### 3.1.3 Climate Adaptation
+
+**Permeability**
+-   "Landcover": provided from course coordination team
+
+**Impact of Flooding**
+-   "q100_flood_area.shp": flood area of a q100 flood along the Teplica
+
+**Land Surface Temperature**
+-   "built_up.tif": built-up area along the Teplica
+
 -   "temperature.tif": land surface temperature for a sunny day in may
     2025, clipped, converted and interpolated from the LANDSAT8/9 B10
     band data
@@ -194,6 +256,13 @@ Are there multiple versions of the dataset? Yes/No
 -   "zones_2000.shp": aggregation zones, buffered 2000m from the Teplica
 -   "MCDA.shp": normalised data for every 200m interval of the Teplica
     for every criteria of the MCDA + derived MCDA scores
+
+
+    
+### 3.1.5 Typology Construction
+
+-   "clustering.gpkg": k-means clustering result for stream unit
+
 
 ## 3.2 Relationship between files:
 
@@ -209,7 +278,12 @@ Teplica stream
 ### 3.3.1 File formats
 
 -   .shp - vector data
+
 -   .tif - raster data
+
+-   .gpkg - vector data
+
+
 
 ### 3.3.2 Naming conventions
 

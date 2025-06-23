@@ -130,6 +130,8 @@ These analyses give an indication of the human-nature connectedness
 around the stream. Based on this we can give an indication of where
 change is needed the most to improve this relationship. 
 
+Check
+
 ### 2.1.1 Research question 1: How does biodiversity affect human-nature connectedness?
 
 -   osm_greenspace (quan)

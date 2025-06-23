@@ -25,7 +25,7 @@
 # 1. GENERAL INFORMATION
 
 ## 1.1 Title of Dataset
-Insert title here
+Human-nature connectedness of the Teplica stream of Senica
 
 ## 1.2 Dataset description
 This dataset contains qualitative and/or quantitative data on ... Context for the research project... Additional details about the project can be accessed [here](https://...).
@@ -48,20 +48,19 @@ C. Associated study personnel
 - ...
 
 ## 1.4 Dates of data collection
-- Survey 1: YYYY-MM-DD
-- Survey 2: YYYY-MM-DD
+- Survey 1: 2025-05-20
 
 ## 1.5 Geographic location of data collection
-...
+Teplica River, Senica, Slovakia
 
 ## 1.6 Keywords
-..., ..., ...
+Urban stream restoration, Quality of life, Biodiversity, Climate adaptation, river, liveability, biophylia, human-nature connectedness
 
 ## 1.7 Language
-...
+English
 
 ## 1.8 Information about funding sources that supported the collection of the data
-This research project was funded by...
+TU Delft I guess
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
@@ -91,31 +90,45 @@ Are there multiple versions of the dataset? Yes/No
 
 ## 3.1 File List
 
-### 3.1.1 Data category A
-- "filename.extension": brief description of file
+### 3.1.1 Biodiversity
+- "species.shp":
+- "green_areas.shp": 
 
-### 3.1.2 Data category B
-- "filename.extension": brief description of file
+### 3.1.2 Quality of Life
+- "parks.shp": 
+- "points_of_interest.shp":
+- "activities.shp":
 
-### 3.1.3 Data category C
-- "filename.extension": brief description of file
+### 3.1.3 Climate Adaptation
+- "built_up.tif": built-up area along the Teplica
+- "q100_flood_area.shp": flood area of a q100 flood along the Teplica
+- "temperature.tif": land surface temperature for a sunny day in may 2025, clipped, converted and interpolated from the LANDSAT8/9 B10 band data
 
-### 3.1.4 Data category D
-- "filename.extension": brief description of file
+### 3.1.4 MCDA
+- "zones_100.shp": aggregation zones, buffered 100m from the Teplica
+- "zones_200.shp": aggregation zones, buffered 200m from the Teplica
+- "zones_500.shp": aggregation zones, buffered 500m from the Teplica
+- "zones_1000.shp": aggregation zones, buffered 1000m from the Teplica
+- "zones_2000.shp": aggregation zones, buffered 2000m from the Teplica
+- "MCDA.shp": normalised data for every 200m interval of the Teplica for every criteria of the MCDA + derived MCDA scores
 
 ## 3.2 Relationship between files:
 The following tables (csv files) employ a foreign key to refer to the primary key (unique identifier) in one or more other table(s):
 
-"filename.extension"
-- abc used as foreign key to "otherfile.extension"
+"MCDA.shp" & "zones_xxx.shp"
+- the "MCDA.shp" and the "zones_xxx.shp" file use the same primary key (ID) to refer to the 200m intervals of the Teplica stream
 
 ## 3.3 File formats and naming conventions
 ### 3.3.1 File formats
-- extension - type of data
+- .shp - vector data
+- .tif - raster data
 
 ### 3.3.2 Naming conventions
 - files named lower case, spaces replaced with dashes (dash-case)
 - in tabular data, variable names snake case
+
+### 3.3.3 Coordinate reference system
+- data uses the EPSG:25833 (ETRS89 / UTM zone 33N) CRS
 
 # 4. DATA-SPECIFIC INFORMATION
 
@@ -148,8 +161,24 @@ The following tables (csv files) employ a foreign key to refer to the primary ke
 ## 4.3 Data Category C
 ...
 
-## 4.4 Data Category D
-...
+## 4.4 MCDA
+### 4.1.1 MCDA.extension
+1. Number of variables: 13
+
+2. Number of cases/rows: 54
+
+3. Variable List:
+
+"variable_name"
+- Full name: 
+- Description: 
+- Type of variable: 
+- Unit of measurement:
+- Number of missing values: 
+
+4. Specialised formats or other abbreviations used: 
+
+5. Total file size: 
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:

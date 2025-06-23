@@ -47,18 +47,32 @@ can be accessed [here](https://...).
 
 ## 1.3 Author Information
 
+
 A. Principal Investigator\
 - Name: Vincent Vanderheeren - Institution: TU Delft - Address: - Email:
 [v.j.a.vanderheeren\@student.tudelft.nl](mailto:v.j.a.vanderheeren@student.tudelft.nl){.email}
 
-B. Associate or Co-investigator - Name: - Institution: - Address: -
-Email:
 
-C. Associated study personnel - ... - ...
+B. Associate or Co-investigator
+- Name: Youjin Lee 
+- Institution: TU Delft 
+- Address: 
+- Email: y.lee-20@student.tudelft.nl
+
+- Name: Shreya Rajmane
+- Institution: TU Delft 
+- Address: 
+- Email: s.h.rajmand@student.tudelft.nl
+
+- Name: Vasileios Letsios
+- Institution: TU Delft 
+- Address: 
+- Email: v.letsios@student.tudelft.nl
 
 ## 1.4 Dates of data collection
-
--   Survey 1: 2025-05-20
+- Data from course: 2025-05-02 
+- Atlas of Slovak Republic (Atlas krajiny Slovenskej republiky): 2025-05-20
+- Landsat 8-9 Collection2 Level2: 2025-06-05
 
 ## 1.5 Geographic location of data collection
 
@@ -75,7 +89,10 @@ English
 
 ## 1.8 Information about funding sources that supported the collection of the data
 
-TU Delft I guess
+- Data from course: TU Delft 
+- Atlas of Slovak Republic: Slovak environment agency (Slovenska Agentura Zivotneho Prostredia)
+- Landsat 8-9 Collection2 Level2:USGS (US Geological Survey)
+
 
 # 2. METHODOLOGICAL INFORMATION
 

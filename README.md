@@ -38,17 +38,25 @@ A. Principal Investigator
 - Email: v.j.a.vanderheeren@student.tudelft.nl
 
 B. Associate or Co-investigator
-- Name: 
-- Institution: 
+- Name: Youjin Lee 
+- Institution: TU Delft 
 - Address: 
-- Email:
+- Email: y.lee-20@student.tudelft.nl
 
-C. Associated study personnel 
-- ...
-- ...
+- Name: Shreya Rajmane
+- Institution: TU Delft 
+- Address: 
+- Email: s.h.rajmand@student.tudelft.nl
+
+- Name: Vasileios Letsios
+- Institution: TU Delft 
+- Address: 
+- Email: v.letsios@student.tudelft.nl
 
 ## 1.4 Dates of data collection
-- Survey 1: 2025-05-20
+- Data from course: 2025-05-02 
+- Atlas of Slovak Republic (Atlas krajiny Slovenskej republiky): 2025-05-20
+- Landsat 8-9 Collection2 Level2: 2025-06-05
 
 ## 1.5 Geographic location of data collection
 Teplica River, Senica, Slovakia
@@ -60,7 +68,9 @@ Urban stream restoration, Quality of life, Biodiversity, Climate adaptation, riv
 English
 
 ## 1.8 Information about funding sources that supported the collection of the data
-TU Delft I guess
+- Data from course: TU Delft 
+- Atlas of Slovak Republic: Slovak environment agency (Slovenska Agentura Zivotneho Prostredia)
+- Landsat 8-9 Collection2 Level2:USGS (US Geological Survey)
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses

@@ -268,12 +268,9 @@ Teplica stream
 
 -   .gpkg - vector data
 
-<<<<<<< HEAD
 -   .tif - raster data
 
 
-=======
->>>>>>> a846c0d4658cf62893da62ca8bfca51b08e77d1b
 ### 3.3.2 Naming conventions
 
 -   files named lower case, spaces replaced with underscores (kebab case)
@@ -408,6 +405,9 @@ Teplica stream
 -   Unit of measurement:-
 -   Number of missing values: 0
 
+4.  Specialised formats or other abbreviations used:
+
+5.  Total file size: 128KB
 
 ### 4.2.1 MCDA+Clustering 
 
@@ -530,18 +530,12 @@ Teplica stream
 
 ### 5.2.1 Links to publications that cite or use the data:
 
-SAŽP Banská Bystrica, (Link:
-[http://www.sazp.sk)http://www.sazp.sk.](http://www.sazp.sk)http://www.sazp.sk.)
-(n.d.-b). *Atlas krajiny SR - Webová mapová aplikácia*.
-<https://app.sazp.sk/atlassr/>
-
-*LandsAt 8-9 Collection 2 Level 2 Science Product Guide*. (2024, May
-23). USGS.
-<https://www.usgs.gov/media/files/landsat-8-9-collection-2-level-2-science-product-guide>
+...
 
 ### 5.2.2 Links to other publicly accessible locations of the data:
 
-...
+-   [Atlas of Slovak Republic]([http://www.sazp.sk)http://www.sazp.sk.](http://www.sazp.sk)http://www.sazp.sk.)
+-   [LandsAt 8-9 Collection 2 Level 2](https://www.usgs.gov/media/files/landsat-8-9-collection-2-level-2-science-product-guide)
 
 ### 5.2.3 Links/relationships to ancillary data sets:
 

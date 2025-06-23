@@ -47,7 +47,6 @@ can be accessed [here](https://...).
 
 ## 1.3 Author Information
 
-
 A. Principal Investigator\
 - Name: Vincent Vanderheeren - Institution: TU Delft - Address: - Email:
 [v.j.a.vanderheeren\@student.tudelft.nl](mailto:v.j.a.vanderheeren@student.tudelft.nl){.email}
@@ -96,15 +95,12 @@ English
 
 ## 1.8 Information about funding sources that supported the collection of the data
 
-
-- Data from course: TU Delft 
-- Atlas of Slovak Republic: Slovak environment agency (Slovenska Agentura Zivotneho Prostredia)
-- Landsat 8-9 Collection2 Level2:USGS (US Geological Survey)
-
-
+-   Data from course: TU Delft
+-   Atlas of Slovak Republic: Slovak environment agency (Slovenska
+    Agentura Zivotneho Prostredia)
+-   Landsat 8-9 Collection2 Level2:USGS (US Geological Survey)
 
 # 2. METHODOLOGICAL INFORMATION
-
 
 ## 2.1 Research questions, methods and envisioned uses
 
@@ -195,13 +191,13 @@ Are there multiple versions of the dataset? Yes/No
 -   "q100_flood_area.shp": flood area of a q100 flood along the Teplica
 
 **Percentage of Green**\
--   osm_greenspace: provided from course coordination team
+- osm_greenspace: provided from course coordination team
 
 **Connectivity to Green**\
--   osm_greenspace: provided from course coordination team
+- osm_greenspace: provided from course coordination team
 
 **Presence of Species**\
--   Lopatka dúhová Rhodeus amarus (European bitterling): data from Atlas
+- Lopatka dúhová Rhodeus amarus (European bitterling): data from Atlas
 of Slovak Republic
 
 -   Ohrozené druhy obojživelníkov a plazov (Endangered species of
@@ -225,7 +221,7 @@ of Slovak Republic
 -   "osm_greenspace": provided from course coordination team
 -   "osm_buildings": provided from course coordination team
 
-**Proximity to Activities
+\*\*Proximity to Activities
 
 -   "osm_greenspace": provided from course coordination team
 -   "osm_activities": provided from course coordination team
@@ -236,14 +232,13 @@ of Slovak Republic
 
 ### 3.1.3 Climate Adaptation
 
-**Permeability**
--   "Landcover": provided from course coordination team
+**Permeability** - "Landcover": provided from course coordination team
 
-**Impact of Flooding**
--   "q100_flood_area.shp": flood area of a q100 flood along the Teplica
+**Impact of Flooding** - "q100_flood_area.shp": flood area of a q100
+flood along the Teplica
 
-**Land Surface Temperature**
--   "built_up.tif": built-up area along the Teplica
+**Land Surface Temperature** - "built_up.tif": built-up area along the
+Teplica
 
 -   "temperature.tif": land surface temperature for a sunny day in may
     2025, clipped, converted and interpolated from the LANDSAT8/9 B10
@@ -259,12 +254,9 @@ of Slovak Republic
 -   "MCDA.shp": normalised data for every 200m interval of the Teplica
     for every criteria of the MCDA + derived MCDA scores
 
-
-    
 ### 3.1.5 Typology Construction
 
 -   "clustering.gpkg": k-means clustering result for stream unit
-
 
 ## 3.2 Relationship between files:
 
@@ -284,8 +276,6 @@ Teplica stream
 -   .tif - raster data
 
 -   .gpkg - vector data
-
-
 
 ### 3.3.2 Naming conventions
 
@@ -353,7 +343,14 @@ of measurement: - Number of missing values:
 
 ### 5.2.1 Links to publications that cite or use the data:
 
-...
+SAŽP Banská Bystrica, (Link:
+[http://www.sazp.sk)http://www.sazp.sk.](http://www.sazp.sk)http://www.sazp.sk.)
+(n.d.-b). *Atlas krajiny SR - Webová mapová aplikácia*.
+<https://app.sazp.sk/atlassr/>
+
+*LandsAt 8-9 Collection 2 Level 2 Science Product Guide*. (2024, May
+23). USGS.
+<https://www.usgs.gov/media/files/landsat-8-9-collection-2-level-2-science-product-guide>
 
 ### 5.2.2 Links to other publicly accessible locations of the data:
 
@@ -369,7 +366,7 @@ of measurement: - Number of missing values:
 
 ### 5.2.5 Was data derived from another source?
 
-Yes/No
+Yes
 
 ## 5.3 Recommended citation for this dataset:
 

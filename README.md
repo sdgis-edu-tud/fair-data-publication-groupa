@@ -536,6 +536,7 @@ Teplica stream
 
 -   [Atlas of Slovak Republic](https://data.sazp.sk/atlas-krajiny-slovenskej-republiky/ogc-open-web-services-w3s)
 -   [LandsAt 8-9 Collection 2 Level 2](https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products)
+-   [mpt.svk geoserver Floodplain](https://mpt.svp.sk/gisserver/rest/services/mpo_mpr/zaplavova_ciara_q0100/MapServer)
 
 ### 5.2.3 Links/relationships to ancillary data sets:
 

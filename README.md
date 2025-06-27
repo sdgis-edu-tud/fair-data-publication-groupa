@@ -198,16 +198,13 @@ Are there multiple versions of the dataset? Yes/No
 
 **Presence of Species**\
 - Lopatka dúhová Rhodeus amarus (European bitterling): data from Atlas
-of Slovak Republic
--   Ohrozené druhy obojživelníkov a plazov (Endangered species of
-    amphibians and reptiles): data from Atlas of Slovak Republic
--   Poľovné oblasti (Hunting Areas): data from Atlas of Slovak Republic
--   Muflónia zver Ovis musimon (European mouflon): data from Atlas of
-    Slovak Republic
--   Zajac Lepus europaeus (European hare): data from Atlas of Slovak
-    Republic
--   Jelenia zver Cervus elaphus (Red deer): data from Atlas of Slovak
-    Republic
+of Slovak Republic - Ohrozené druhy obojživelníkov a plazov (Endangered
+species of amphibians and reptiles): data from Atlas of Slovak
+Republic - Poľovné oblasti (Hunting Areas): data from Atlas of Slovak
+Republic - Muflónia zver Ovis musimon (European mouflon): data from
+Atlas of Slovak Republic - Zajac Lepus europaeus (European hare): data
+from Atlas of Slovak Republic - Jelenia zver Cervus elaphus (Red deer):
+data from Atlas of Slovak Republic
 
 ### 3.1.2 Quality of Life
 
@@ -245,8 +242,10 @@ Teplica
 -   "buffer_100.shp": aggregation zones, buffered 100m from the Teplica
 -   "buffer_200.shp": aggregation zones, buffered 200m from the Teplica
 -   "buffer_500.shp": aggregation zones, buffered 500m from the Teplica
--   "buffer_1000.shp": aggregation zones, buffered 1000m from the Teplica
--   "buffer_2000.shp": aggregation zones, buffered 2000m from the Teplica
+-   "buffer_1000.shp": aggregation zones, buffered 1000m from the
+    Teplica
+-   "buffer_2000.shp": aggregation zones, buffered 2000m from the
+    Teplica
 -   "MCDA.gpkg": normalised data for every 200m interval of the Teplica
     for every criteria of the MCDA + derived MCDA scores
 
@@ -256,9 +255,9 @@ Teplica
 
 ## 3.2 Relationship between files:
 
-files related to MCDA and Typology Construction ("units.shp", "buffer_xxx.shp", "MCDA.gpkg", "MCDA+Clustering.gpkg")
-use the same primary key (ID) to refer to the 200m intervals of the
-Teplica stream
+files related to MCDA and Typology Construction ("units.shp",
+"buffer_xxx.shp", "MCDA.gpkg", "MCDA+Clustering.gpkg") use the same
+primary key (ID) to refer to the 200m intervals of the Teplica stream
 
 ## 3.3 File formats and naming conventions
 
@@ -270,10 +269,10 @@ Teplica stream
 
 -   .tif - raster data
 
-
 ### 3.3.2 Naming conventions
 
--   files named lower case, spaces replaced with underscores (kebab case)
+-   files named lower case, spaces replaced with underscores (kebab
+    case)
 -   in tabular data, variable names pascal case
 
 ### 3.3.3 Coordinate reference system
@@ -295,12 +294,9 @@ Teplica stream
 
 3.  Variable List:
 
-"ID"
--   Full name: ID
--   Description: primary key that distinguishes each unit
--   Type of variable:
--   Unit of measurement:
--   Number of missing values: 0
+"ID" - Full name: ID - Description: primary key that distinguishes each
+unit - Type of variable: - Unit of measurement: - Number of missing
+values: 0
 
 4.  Specialised formats or other abbreviations used:
 
@@ -314,102 +310,75 @@ Teplica stream
 
 3.  Variable List:
 
-"ID"
--   Full name: ID
--   Description: primary key that distinguishes each unit
--   Type of variable: Decimal
--   Unit of measurement:
--   Number of missing values: 0
+"ID" - Full name: ID - Description: primary key that distinguishes each
+unit - Type of variable: Decimal - Unit of measurement: - Number of
+missing values: 0
 
-"Percentage"
--   Full name: Percentage of Green
--   Description: first criterion of biodiversity - normalized number derived from percentage of green in each buffered unit (200m)
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Percentage" - Full name: Percentage of Green - Description: first
+criterion of biodiversity - normalized number derived from percentage of
+green in each buffered unit (200m) - Type of variable: Decimal - Unit of
+measurement:- - Number of missing values: 0
 
-"Connectivity"
--   Full name: Connectivity to Green
--   Description: second criterion of biodiversity - normalized number derived from shortest distance between stream unit to closest greenspace
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Connectivity" - Full name: Connectivity to Green - Description: second
+criterion of biodiversity - normalized number derived from shortest
+distance between stream unit to closest greenspace - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Species"
--   Full name: Presence of Species
--   Description: third criterion of biodiversity - normalized number derived from overlaps of different habitat layer
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Species" - Full name: Presence of Species - Description: third
+criterion of biodiversity - normalized number derived from overlaps of
+different habitat layer - Type of variable: Decimal - Unit of
+measurement:- - Number of missing values: 0
 
-"Parks"
--   Full name: Proximity to Parks
--   Description: first criterion of quality of life - normalized number derived from aggregated proximity from houses to parks in 1000m buffered zone
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Parks" - Full name: Proximity to Parks - Description: first criterion
+of quality of life - normalized number derived from aggregated proximity
+from houses to parks in 1000m buffered zone - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Activities"
--   Full name: Proximity to Activities
--   Description: second criterion of quality of life - normalized number derived from aggregated proximity from houses to activities in 1000m buffered zone
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Activities" - Full name: Proximity to Activities - Description: second
+criterion of quality of life - normalized number derived from aggregated
+proximity from houses to activities in 1000m buffered zone - Type of
+variable: Decimal - Unit of measurement:- - Number of missing values: 0
 
-"POI"
--   Full name: Concentration of POI
--   Description: third criterion of quality of life - normalized number derived from aggregated proximity from stream unit to points of interests in 200m buffered zone
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"POI" - Full name: Concentration of POI - Description: third criterion
+of quality of life - normalized number derived from aggregated proximity
+from stream unit to points of interests in 200m buffered zone - Type of
+variable: Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Permeability"
--   Full name: Permeability
--   Description: first criterion of climate adaptation - normalized number derived from counted number of permeable pixels from land cover raster data
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Permeability" - Full name: Permeability - Description: first criterion
+of climate adaptation - normalized number derived from counted number of
+permeable pixels from land cover raster data - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Impact of Flooding"
--   Full name: Impact of Flooding 
--   Description: second criterion of climate adaptation - normalized number derived from counted number of buildings withing flood zones 500m maximum from stream unit. (reversed: higher number means low flood risk)
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Impact of Flooding" - Full name: Impact of Flooding - Description:
+second criterion of climate adaptation - normalized number derived from
+counted number of buildings withing flood zones 500m maximum from stream
+unit. (reversed: higher number means low flood risk) - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Temperature"
--   Full name: Land Surface Temperature
--   Description: second criterion of climate adaptation - normalized number derived from land surface temperature data (reversed: higher number means low land surface temperature)
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Temperature" - Full name: Land Surface Temperature - Description:
+second criterion of climate adaptation - normalized number derived from
+land surface temperature data (reversed: higher number means low land
+surface temperature) - Type of variable: Decimal - Unit of
+measurement:- - Number of missing values: 0
 
-"Biodiversity"
--   Full name: Biodiversity
--   Description: aggregated value of biodiversity criteria with different weights
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Biodiversity" - Full name: Biodiversity - Description: aggregated value
+of biodiversity criteria with different weights - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"QualityOfLife"
--   Full name: Quality of Life
--   Description: aggregated value of quality of life criteria with different weights
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"QualityOfLife" - Full name: Quality of Life - Description: aggregated
+value of quality of life criteria with different weights - Type of
+variable: Decimal - Unit of measurement:- - Number of missing values: 0
 
-"ClimateAdaptation"
--   Full name: Climate Adaptation
--   Description: aggregated value of climate adaptation criteria with different weights
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"ClimateAdaptation" - Full name: Climate Adaptation - Description:
+aggregated value of climate adaptation criteria with different weights -
+Type of variable: Decimal - Unit of measurement:- - Number of missing
+values: 0
 
 4.  Specialised formats or other abbreviations used:
 
 5.  Total file size: 128KB
 
-### 4.2.1 MCDA+Clustering 
+### 4.2.1 MCDA+Clustering
 
 1.  Number of variables: 15
 
@@ -417,133 +386,101 @@ Teplica stream
 
 3.  Variable List:
 
-"ID"
--   Full name: ID
--   Description: primary key that distinguishes each unit
--   Type of variable: Decimal
--   Unit of measurement:
--   Number of missing values: 0
+"ID" - Full name: ID - Description: primary key that distinguishes each
+unit - Type of variable: Decimal - Unit of measurement: - Number of
+missing values: 0
 
-"Percentage"
--   Full name: Percentage of Green
--   Description: first criterion of biodiversity - normalized number derived from percentage of green in each buffered unit (200m)
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Percentage" - Full name: Percentage of Green - Description: first
+criterion of biodiversity - normalized number derived from percentage of
+green in each buffered unit (200m) - Type of variable: Decimal - Unit of
+measurement:- - Number of missing values: 0
 
-"Connectivity"
--   Full name: Connectivity to Green
--   Description: second criterion of biodiversity - normalized number derived from shortest distance between stream unit to closest greenspace
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Connectivity" - Full name: Connectivity to Green - Description: second
+criterion of biodiversity - normalized number derived from shortest
+distance between stream unit to closest greenspace - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Species"
--   Full name: Presence of Species
--   Description: third criterion of biodiversity - normalized number derived from overlaps of different habitat layer
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Species" - Full name: Presence of Species - Description: third
+criterion of biodiversity - normalized number derived from overlaps of
+different habitat layer - Type of variable: Decimal - Unit of
+measurement:- - Number of missing values: 0
 
-"Parks"
--   Full name: Proximity to Parks
--   Description: first criterion of quality of life - normalized number derived from aggregated proximity from houses to parks in 1000m buffered zone
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Parks" - Full name: Proximity to Parks - Description: first criterion
+of quality of life - normalized number derived from aggregated proximity
+from houses to parks in 1000m buffered zone - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Activities"
--   Full name: Proximity to Activities
--   Description: second criterion of quality of life - normalized number derived from aggregated proximity from houses to activities in 1000m buffered zone
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Activities" - Full name: Proximity to Activities - Description: second
+criterion of quality of life - normalized number derived from aggregated
+proximity from houses to activities in 1000m buffered zone - Type of
+variable: Decimal - Unit of measurement:- - Number of missing values: 0
 
-"POI"
--   Full name: Concentration of POI
--   Description: third criterion of quality of life - normalized number derived from aggregated proximity from stream unit to points of interests in 200m buffered zone
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"POI" - Full name: Concentration of POI - Description: third criterion
+of quality of life - normalized number derived from aggregated proximity
+from stream unit to points of interests in 200m buffered zone - Type of
+variable: Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Permeability"
--   Full name: Permeability
--   Description: first criterion of climate adaptation - normalized number derived from counted number of permeable pixels from land cover raster data
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Permeability" - Full name: Permeability - Description: first criterion
+of climate adaptation - normalized number derived from counted number of
+permeable pixels from land cover raster data - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Impact of Flooding"
--   Full name: Impact of Flooding 
--   Description: second criterion of climate adaptation - normalized number derived from counted number of buildings withing flood zones 500m maximum from stream unit. (reversed: higher number means low flood risk)
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Impact of Flooding" - Full name: Impact of Flooding - Description:
+second criterion of climate adaptation - normalized number derived from
+counted number of buildings withing flood zones 500m maximum from stream
+unit. (reversed: higher number means low flood risk) - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"Temperature"
--   Full name: Land Surface Temperature
--   Description: second criterion of climate adaptation - normalized number derived from land surface temperature data (reversed: higher number means low land surface temperature)
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Temperature" - Full name: Land Surface Temperature - Description:
+second criterion of climate adaptation - normalized number derived from
+land surface temperature data (reversed: higher number means low land
+surface temperature) - Type of variable: Decimal - Unit of
+measurement:- - Number of missing values: 0
 
-"Biodiversity"
--   Full name: Biodiversity
--   Description: aggregated value of biodiversity criteria with different weights
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"Biodiversity" - Full name: Biodiversity - Description: aggregated value
+of biodiversity criteria with different weights - Type of variable:
+Decimal - Unit of measurement:- - Number of missing values: 0
 
-"QualityOfLife"
--   Full name: Quality of Life
--   Description: aggregated value of quality of life criteria with different weights
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"QualityOfLife" - Full name: Quality of Life - Description: aggregated
+value of quality of life criteria with different weights - Type of
+variable: Decimal - Unit of measurement:- - Number of missing values: 0
 
-"ClimateAdaptation"
--   Full name: Climate Adaptation
--   Description: aggregated value of climate adaptation criteria with different weights
--   Type of variable: Decimal
--   Unit of measurement:-
--   Number of missing values: 0
+"ClimateAdaptation" - Full name: Climate Adaptation - Description:
+aggregated value of climate adaptation criteria with different weights -
+Type of variable: Decimal - Unit of measurement:- - Number of missing
+values: 0
 
-"Clustering"
--   Full name: Clustering Results
--   Description: results of k-means clustering for each unit
--   Type of variable: String
--   Unit of measurement:-
--   Number of missing values: 0
+"Clustering" - Full name: Clustering Results - Description: results of
+k-means clustering for each unit - Type of variable: String - Unit of
+measurement:- - Number of missing values: 0
 
 4.  Specialised formats or other abbreviations used:
 
 5.  Total file size: 116KB
 
-
 # 5. SHARING/ACCESS INFORMATION
 
 ## 5.1 Licenses/restrictions placed on the data:
 
-...
+N/A
 
 ## 5.2 Links to other resources:
 
 ### 5.2.1 Links to publications that cite or use the data:
 
-...
+N/A
 
 ### 5.2.2 Links to other publicly accessible locations of the data:
 
--   [Atlas of Slovak Republic](https://data.sazp.sk/atlas-krajiny-slovenskej-republiky/ogc-open-web-services-w3s)
--   [LandsAt 8-9 Collection 2 Level 2](https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products)
+N/A
 
 ### 5.2.3 Links/relationships to ancillary data sets:
 
-...
+N/A
 
 ### 5.2.4 Links to publicly accessible scripts for analysis of the dataset:
 
--   [Link title](link%20url)
+N/A
 
 ### 5.2.5 Was data derived from another source?
 
